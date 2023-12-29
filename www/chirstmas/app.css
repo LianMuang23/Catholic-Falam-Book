@@ -1,0 +1,28 @@
+.header{
+    color: cornflowerblue;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+body{
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 10px;
+    margin: auto;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}

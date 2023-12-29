@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    justify-content:  center;
+    margin: 0px;
+    padding: 30px;
+   font-size: 25px;
+}
+p{
+    justify-content: left;
+    font-size: large;
+}
+div{
+    margin-left: 50px;
+    font-size: large;
+}

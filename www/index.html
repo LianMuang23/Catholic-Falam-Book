@@ -1,0 +1,984 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Navigation bar</title>
+  <style>
+    #search-bar {
+      width: 50%;
+      margin-top: 10px;
+
+    }
+
+    #search-bar input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 5px;
+      text-transform: none;
+
+    }
+
+    .list-item {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+     
+    }
+
+    .list-item a {
+      text-decoration: none;
+      color: black;
+      /* Adjust the color as needed */
+    }
+
+    .list-item li {
+      padding: 10px;
+      margin: auto;
+      border-right: 1px solid #ccc;
+     
+    }
+
+
+    .list-item li:last-child {
+      border-right: none;
+    }
+
+    .list-item li:hover {
+      background-color: #eee;
+      /* Adjust the background color on hover as needed */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div id="brand"><a href="/">Catholic Falam</a></div>
+    <div id="search-bar">
+      <input type="text" placeholder="Search..." id="search">
+    </div>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="pray/index.html">Thlacamnak</a></li>
+        <li><a href="chirstmas/index.html">A thuhla</a></li>
+        <!-- <li><a href="">Hlabu thu</a></li> -->
+      </ul>
+    </div>
+  </header>
+  <ul class="list-item">
+    <a href="chirstmas/1.html">
+      <li class="">1.Ra aw, in runtu Bawipa </li>
+    </a>
+    <a href="chirstmas/1.html">
+      <li class="item">1.Ra aw, in runtu Bawipa </li>
+    </a>
+    <a href="chirstmas/2.html">
+      <li class="item">2.Ra aw, ra aw, Immanuel</li>
+    </a>
+    <a href="chirstmas/3.html">
+      <li class="item">3.Ngai uh, Thawngvang ka thei</li>
+    </a>
+    <a href="chirstmas/4.html">
+      <li class="item">4.Van ih awthawg cu</li>
+    </a>
+    <a href="chirstmas/5.html">
+      <li class="item">5.Rak zoh uh, A ra ding</li>
+    </a>
+    <a href="chirstmas/6.html">
+      <li class="item">6.Bawipa ra tikah ralrinnak ding</li>
+    </a>
+    <a href="chirstmas/7.html">
+      <li class="item">7.Bethlehem mipum siarnak</li>
+    </a>
+    <a href="chirstmas/8.html">
+      <li class="item">8.Bawi Khrih suahni ahcun</li>
+    </a>
+    <a href="chirstmas/9.html">
+      <li class="item">9.A thawmtum le mawinak</li>
+    </a>
+    <a href="chirstmas/10.html">
+      <li class="item">10.Bethlehem arsi tleu mawite</li>
+    </a>
+    <a href="chirstmas/11.html">
+      <li class="item">11.Vancung ih tleunak a thleng</li>
+    </a>
+    <a href="chirstmas/12.html">
+      <li class="item">12.Naute ih a suak zo</li>
+    </a>
+    <a href="chirstmas/13.html">
+      <li class="item">13.Judea ram Bethlehem khua kiang</li>
+    </a>
+    <a href="chirstmas/14.html">
+      <li class="item">14.Noel Vancungmi Hla</li>
+    </a>
+    <a href="chirstmas/15.html">
+      <li class="item">15.Kan lawm tlang pei</li>
+    </a>
+    <a href="chirstmas/16.html">
+      <li class="item">16.Ngai uh, Vancung le Leitlun kipah</li>
+    </a>
+    <a href="chirstmas/17.html">
+      <li class="item">17.Maw a lian bik</li>
+    </a>
+    <a href="chirstmas/18.html">
+      <li class="item">18.Bawipa a <u>t</u>um, nan lungawi uh</li>
+    </a>
+    <a href="chirstmas/19.html">
+      <li class="item">19.Aw thuzumtu bawl tla</li>
+    </a>
+    <a href="chirstmas/20.html">
+      <li class="item">20.Thianghlim zan</li>
+    </a>
+    <a href="chirstmas/21.html">
+      <li class="item">21.Na umnak taanin</li>
+    </a>
+    <a href="chirstmas/22.html">
+      <li class="item">22.Vansangbik ah hmin thang seh</li>
+    </a>
+    <a href="chirstmas/23.html">
+      <li class="item">23.A naa tuk ee, Bawipa Jesuh</li>
+    </a>
+    <!-- <a href="chirstmas/2.html"><li class="item"></li></a>
+      <a href="chirstmas/2.html"><li class="item"></li></a> -->
+    <a href="chirstmas/26.html">
+      <li class="item">26.Bawipa thihnak Calvary ah</li>
+    </a>
+    <a href="chirstmas/27.html">
+      <li class="item">27.Leitlun aum hlanah</li>
+    </a>
+    <a href="chirstmas/28.html">
+      <li class="item">28.Runtu Bawi Calvary ah</li>
+    </a>
+    <a href="chirstmas/29.html">
+      <li class="item">29.Na thlarau hrang ruat aw</li>
+    </a>
+    <a href="chirstmas/30.html">
+      <li class="item">30.Sualsirnak</li>
+    </a>
+    <a href="chirstmas/31.html">
+      <li class="item">31.Jesuh thinglamtah hmaiah</li>
+    </a>
+    <a href="chirstmas/32.html">
+      <li class="item">32.Sualhram pasarih</li>
+    </a>
+    <a href="chirstmas/33.html">
+      <li class="item">33.Thinglamtah hramah ka ra</li>
+    </a>
+    <a href="chirstmas/34.html">
+      <li class="item">34.Thinglamtah lamzin in in hruai</li>
+    </a>
+    <a href="chirstmas/35.html">
+      <li class="item">35.Bawih Jesuh Thinglamtah Par ih an tar laiah</li>
+    </a>
+    <a href="chirstmas/36.html">
+      <li class="item">36.Thinglamtah Kiangah</li>
+    </a>
+    <a href="chirstmas/37.html">
+      <li class="item">37.Na Thilrit thum aw tu ah</li>
+    </a>
+    <a href="chirstmas/38.html">
+      <li class="item">38.Nangmaih duhnak</li>
+    </a>
+    <a href="chirstmas/39.html">
+      <li class="item">39.Ka hrang a tuar</li>
+    </a>
+    <a href="chirstmas/40.html">
+      <li class="item">40.In rak runtu Calvary ah</li>
+    </a>
+    <a href="chirstmas/41.html">
+      <li class="item">41.Kan rual thabik Jesuh asi</li>
+    </a>
+    <a href="chirstmas/42.html">
+      <li class="item">42.Zaangfahnak neitu bawi Jesuh</li>
+    </a>
+    <a href="chirstmas/43.html">
+      <li class="item">43.Jesuh lawngin a phur ding maw?</li>
+    </a>
+    <a href="chirstmas/44.html">
+      <li class="item">44.Ngai uh sualneimi pawl</li>
+    </a>
+    <a href="chirstmas/45.html">
+      <li class="item">45.Kaa in sim cawk lo</li>
+    </a>
+    <a href="chirstmas/46.html">
+      <li class="item">46.Thinglamtah aum</li>
+    </a>
+    <a href="chirstmas/47.html">
+      <li class="item">47.Aw nem te in ko</li>
+    </a>
+    <a href="chirstmas/48.html">
+      <li class="item">48.Thiannak thi</li>
+    </a>
+    <a href="chirstmas/49.html">
+      <li class="item">49.Jesuh in kei i duh</li>
+    </a>
+    <a href="chirstmas/50.html">
+      <li class="item">50.Ngai hnik uh, leitlun mi tla</li>
+    </a>
+    <a href="chirstmas/51.html">
+      <li class="item">51.Pathian bawipa in zaangfah aw</li>
+    </a>
+    <a href="chirstmas/52.html">
+      <li class="item">52.Zaangfahnak le duhdawtnak Pathian</li>
+    </a>
+    <a href="chirstmas/53.html">
+      <li class="item">53.A hrang nunnak ka pek</li>
+    </a>
+    <a href="chirstmas/54.html">
+      <li class="item">54.A lian bik tuufa</li>
+    </a>
+    <a href="chirstmas/55.html">
+      <li class="item">55.Aw Fapa le fa nu pawl</li>
+    </a>
+    <a href="chirstmas/56.html">
+      <li class="item">56.Alleluia, Lawm uh</li>
+    </a>
+    <a href="chirstmas/57.html">
+      <li class="item">57.Bawipa thawhsal caan</li>
+    </a>
+    <a href="chirstmas/58.html">
+      <li class="item">58.Bawipa thukham thar</li>
+    </a>
+    <a href="chirstmas/59.html">
+      <li class="item">59.Bawi Jesuh a thosal</li>
+    </a>
+    <a href="chirstmas/60.html">
+      <li class="item">60.Kan hrang runtu bawi asi</li>
+    </a>
+    <a href="chirstmas/61.html">
+      <li class="item">61.Bawipa thihnak in atho</li>
+    </a>
+    <a href="chirstmas/62.html">
+      <li class="item">62.Jesuh Christu tuihsun atho</li>
+    </a>
+    <a href="chirstmas/63.html">
+      <li class="item">63.Jesuh thihnak a neh zo</li>
+    </a>
+    <a href="chirstmas/64.html">
+      <li class="item">64.In tlentu cu thangthat uh</li>
+    </a>
+    <a href="chirstmas/65.html">
+      <li class="item">65.Leilung thawh tirah</li>
+    </a>
+    <a href="chirstmas/66.html">
+      <li class="item">66.Zoh aw, van bawifa</li>
+    </a>
+    <a href="chirstmas/67.html">
+      <li class="item">67.Sunlawi lukhuh</li>
+    </a>
+    <a href="chirstmas/68.html">
+      <li class="item">68.Vancung ah kaitu bawipa</li>
+    </a>
+    <a href="chirstmas/69.html">
+      <li class="item">69.Zion innsang sungah</li>
+    </a>
+    <a href="chirstmas/70.html">
+      <li class="item">70.Vancung ah Jesuh a kai</li>
+    </a>
+    <a href="chirstmas/71.html">
+      <li class="item">71.Runtu bawi a nung ti ka thei</li>
+    </a>
+    <a href="chirstmas/72.html">
+      <li class="item">72.Pathian in a pawlpi</li>
+    </a>
+    <a href="chirstmas/73.html">
+      <li class="item">73.Pentecost ni thlarau bangin</li>
+    </a>
+    <a href="chirstmas/74.html">
+      <li class="item">74.Thiang thlarau pathian</li>
+    </a>
+    <a href="chirstmas/75.html">
+      <li class="item">75.Pathian laksawng</li>
+    </a>
+    <a href="chirstmas/76.html">
+      <li class="item">76.Thiang thlarau pathian bawipa</li>
+    </a>
+    <a href="chirstmas/77.html">
+      <li class="item">77.Aw thiang thlarau pathian</li>
+    </a>
+    <a href="chirstmas/78.html">
+      <li class="item">78.A &#7788;ha cuangmi Jesuh thinlung</li>
+    </a>
+    <a href="chirstmas/79.html">
+      <li class="item">79.Jesuh Thianghlim thinlung</li>
+    </a>
+    <a href="chirstmas/80.html">
+      <li class="item">80.Minung tlun ah duhnak anei</li>
+    </a>
+    <a href="chirstmas/81.html">
+      <li class="item">81.Pathian duhnak mei in</li>
+    </a>
+    <a href="chirstmas/82.html">
+      <li class="item">82.Jesuh Thianghlim thinlung hnenah</li>
+    </a>
+    <a href="chirstmas/83.html">
+      <li class="item">83.Jesuh thinlung hnenah</li>
+    </a>
+    <a href="chirstmas/84.html">
+      <li class="item">84.A Thianghlim Bawipa thinlung</li>
+    </a>
+    <a href="chirstmas/85.html">
+      <li class="item">85.Thianghlim Sacramentu</li>
+    </a>
+    <a href="chirstmas/86.html">
+      <li class="item">86.Jesuh thinlung naih uh</li>
+    </a>
+    <a href="chirstmas/87.html">
+      <li class="item">87.Kan pa Pathian tlunah</li>
+    </a>
+    <a href="chirstmas/88.html">
+      <li class="item">88.Vancung kan pa (1)</li>
+    </a>
+    <a href="chirstmas/89.html">
+      <li class="item">89.Zaangfahnak phundang</li>
+    </a>
+    <a href="chirstmas/90.html">
+      <li class="item">90.Vancung kan pa (2)</li>
+    </a>
+    <a href="chirstmas/91.html">
+      <li class="item">91.Jesuh hmin thangthat uh</li>
+    </a>
+    <a href="chirstmas/92.html">
+      <li class="item">92.Lukhum khum ter uh</li>
+    </a>
+    <a href="chirstmas/93.html">
+      <li class="item">93.Bawipa ralnehnak</li>
+    </a>
+    <a href="chirstmas/94.html">
+      <li class="item">94.Lung Man Khung Bik</li>
+    </a>
+    <a href="chirstmas/95.html">
+      <li class="item">95.Sangkaa kiang bawipa a ding</li>
+    </a>
+    <a href="chirstmas/96.html">
+      <li class="item">96.Miphun hmuahhmuah</li>
+    </a>
+    <a href="chirstmas/97.html">
+      <li class="item">97.Zarhpi ni ul uh</li>
+    </a>
+    <a href="chirstmas/98.html">
+      <li class="item">98.Lung ih tho ter bawipa</li>
+    </a>
+    <a href="chirstmas/99.html">
+      <li class="item">99.Jesuh hnen kan naih ding</li>
+    </a>
+    <a href="chirstmas/100.html">
+      <li class="item">100.Bawipa hnenah nan lungawi uh</li>
+    </a>
+    <a href="chirstmas/101.html">
+      <li class="item">101.Zing arsi a suak zo</li>
+    </a>
+    <a href="two/102.html">
+      <li class="item">102.Ziang a tuah</li>
+    </a>
+    <a href="two/103.html">
+      <li class="item">103.Jesuh hnen ah na feh zo maw?</li>
+    </a>
+    <a href="two/104.html">
+      <li class="item">104.Leitlun Siangpahrang ih Siangpahrang</li>
+    </a>
+    <a href="two/105.html">
+      <li class="item">105.Sersiam mi hmuah in</li>
+    </a>
+    <a href="two/106.html">
+      <li class="item">106.Pathian inn &#7788;ha</li>
+    </a>
+    <a href="two/107.html">
+      <li class="item">107.Maw a nuambik</li>
+    </a>
+    <a href="two/108.html">
+      <li class="item">108.Pathian thukham pahra</li>
+    </a>
+    <a href="two/109.html">
+      <li class="item">109.Pawlpi thukham paruk</li>
+    </a>
+    <a href="two/110.html">
+      <li class="item">110.Tleunak kuat aw</li>
+    </a>
+    <a href="two/111.html">
+      <li class="item">111.Rat a duhmi hmuahin ra uh</li>
+    </a>
+    <a href="two/112.html">
+      <li class="item">112.Tikhur a um</li>
+    </a>
+    <a href="two/113.html">
+      <li class="item">113.Amah in i hruai</li>
+    </a>
+    <a href="two/114.html">
+      <li class="item">114.Jesuh hmin keng uh</li>
+    </a>
+    <a href="two/115.html">
+      <li class="item">115.Bawipa hnenah pek uhsi</li>
+    </a>
+    <a href="two/116.html">
+      <li class="item">116.Jesuh hnenah kan pek zo</li>
+    </a>
+    <a href="two/117.html">
+      <li class="item">117.In sang aw, kan pa</li>
+    </a>
+    <a href="two/118.html">
+      <li class="item">118.Bawipa Biaktheng hmaiah</li>
+    </a>
+    <a href="two/119.html">
+      <li class="item">119.Bawipa na duhdawtnak sungah</li>
+    </a>
+    <a href="two/120.html">
+      <li class="item">120.Bawipa hnenah</li>
+    </a>
+    <a href="two/121.html">
+      <li class="item">121.Aw Bawipa hi kanmaih summi</li>
+    </a>
+    <a href="two/122.html">
+      <li class="item">122.Cungnung pathian</li>
+    </a>
+    <a href="two/123.html">
+      <li class="item">123.Calvary tlangah</li>
+    </a>
+    <a href="two/124.html">
+      <li class="item">124.Kan Pekmi thawinak in rak sang aw</li>
+    </a>
+    <a href="two/125.html">
+      <li class="item">125.Sang le sabitti sumnak</li>
+    </a>
+    <a href="two/126.html">
+      <li class="item">126.Suikheng sungah</li>
+    </a>
+    <a href="two/127.html">
+      <li class="item">127.Thianghlim biaktheng hmaiah</li>
+    </a>
+    <a href="two/128.html">
+      <li class="item">128.Zoh aw, Calvary</li>
+    </a>
+    <a href="two/129.html">
+      <li class="item">129.Jesuh ih thawinak</li>
+    </a>
+    <a href="two/130.html">
+      <li class="item">130.In rak runtu bawi Jesuh</li>
+    </a>
+    <a href="two/131.html">
+      <li class="item">131.Aw Bawipa Kan inn sungah</li>
+    </a>
+    <a href="two/132.html">
+      <li class="item">132.Aw Bawipa keimiah tlak lo</li>
+    </a>
+    <a href="two/133.html">
+      <li class="item">133.Bawi Jesuh ih thi le sa</li>
+    </a>
+    <a href="two/134.html">
+      <li class="item">134.Duhtul Jesuh Pathian Bawipa</li>
+    </a>
+    <a href="two/135.html">
+      <li class="item">135.Dawtnak Jesuh ka tul ko</li>
+    </a>
+    <a href="two/136.html">
+      <li class="item">136.Lak uh la ei uh</li>
+    </a>
+    <a href="two/137.html">
+      <li class="item">137.Nunnak sangreu</li>
+    </a>
+    <a href="two/138.html">
+      <li class="item">138.Nunnak sang i zem aw</li>
+    </a>
+    <a href="two/139.html">
+      <li class="item">139.Nuamnak ram Siangpahrang</li>
+    </a>
+    <a href="two/140.html">
+      <li class="item">140.Rinsan Hngakhlapmi Jesuh</li>
+    </a>
+    <a href="two/141.html">
+      <li class="item">141.Zaangfahnak neitu</li>
+    </a>
+    <a href="two/142.html">
+      <li class="item">142.Tuufa ih rawldonak puaiah</li>
+    </a>
+    <a href="two/143.html">
+      <li class="item">143.Ra uh sualnei pawl</li>
+    </a>
+    <a href="two/144.html">
+      <li class="item">144.Rundamnak Laksawng Thianghlim</li>
+    </a>
+    <a href="two/145.html">
+      <li class="item">145.I Naih ter aw</li>
+    </a>
+    <a href="two/146.html">
+      <li class="item">146.Pathian Duhdawtnak</li>
+    </a>
+    <a href="two/147.html">
+      <li class="item">147.Bawipa Jesuh Kanmah In duh</li>
+    </a>
+    <a href="two/148.html">
+      <li class="item">148.Pathian Fapa Jesuh</li>
+    </a>
+    <a href="two/149.html">
+      <li class="item">149.Jesuh Pathian Bawipa</li>
+    </a>
+    <a href="two/150.html">
+      <li class="item">150.Thi sungah sunglawinak aum</li>
+    </a>
+    <a href="two/151.html">
+      <li class="item">151.Thluasuah Kawhnak Ngai Uh</li>
+    </a>
+    <a href="two/152.html">
+      <li class="item">152.Vancung Siangpahrang</li>
+    </a>
+    <a href="two/153.html">
+      <li class="item">153.Missa sungih tuahmi sangreu</li>
+    </a>
+    <a href="two/154.html">
+      <li class="item">154.Na Thawngtha ka thei</li>
+    </a>
+    <a href="two/155.html">
+      <li class="item">155.Sacramentu ih Bawi Jesuh</li>
+    </a>
+    <a href="two/156.html">
+      <li class="item">156.Jesuh In Leng Aw</li>
+    </a>
+    <a href="two/157.html">
+      <li class="item">157.Biaktheng parih Bawipa Jesuh</li>
+    </a>
+    <a href="two/158.html">
+      <li class="item">158.A Sannak hmun ah</li>
+    </a>
+    <a href="two/159.html">
+      <li class="item">159.Nunnak In Petu</li>
+    </a>
+    <a href="two/160.html">
+      <li class="item">160.Jesuh thi Lawngin A thiang thei</li>
+    </a>
+    <a href="two/161.html">
+      <li class="item">161.Bawipa Duhnak a Tumbik</li>
+    </a>
+    <a href="two/162.html">
+      <li class="item">162.A sannak hmunah</li>
+    </a>
+    <a href="two/163.html">
+      <li class="item">163.Ka si bang in co aw</li>
+    </a>
+    <a href="two/164.html">
+      <li class="item">164.A hmin ko tu hmuahin</li>
+    </a>
+    <a href="two/165.html">
+      <li class="item">165.Jesuh thu theih sinsin ka duh</li>
+    </a>
+    <a href="two/166.html">
+      <li class="item">166.Thlacamnak caan tha</li>
+    </a>
+    <a href="two/167.html">
+      <li class="item">167.Thlacamnak tikcuu sunglawi</li>
+    </a>
+    <a href="two/168.html">
+      <li class="item">168.Zaangfahnak thuthang tha</li>
+    </a>
+    <a href="two/169.html">
+      <li class="item">169.Zum cio uh</li>
+    </a>
+    <a href="two/170.html">
+      <li class="item">170.I hrial hlah</li>
+    </a>
+    <a href="two/171.html">
+      <li class="item">171.Kumkhua nangmah kan tul</li>
+    </a>
+    <a href="two/172.html">
+      <li class="item">172.A hlo dingmi run aw</li>
+    </a>
+    <a href="two/173.html">
+      <li class="item">173.Ni le thla an liam</li>
+    </a>
+    <a href="two/174.html">
+      <li class="item">174.Jesuh Hrangah tho uh</li>
+    </a>
+    <a href="two/175.html">
+      <li class="item">175.A hmanmi zin</li>
+    </a>
+    <a href="two/176.html">
+      <li class="item">176.Khrih le a pawlpi Hrangah</li>
+    </a>
+    <a href="two/177.html">
+      <li class="item">177.Feh in tuan uh</li>
+    </a>
+    <a href="two/178.html">
+      <li class="item">178.Hnatuan uh</li>
+    </a>
+    <a href="two/179.html">
+      <li class="item">179.Fangcang tel khawm in</li>
+    </a>
+    <a href="two/180.html">
+      <li class="item">180.Jesuh kawhnak awthawng ngai uh</li>
+    </a>
+    <a href="two/181.html">
+      <li class="item">181.Thukham sungah ka ding</li>
+    </a>
+    <a href="two/182.html">
+      <li class="item">182.Rawl khawmtu khuiah an um</li>
+    </a>
+    <a href="two/183.html">
+      <li class="item">183.Thinglamtah ralkap ka si</li>
+    </a>
+    <a href="two/184.html">
+      <li class="item">184.Leitlun ram hmuahhmuah ah</li>
+    </a>
+    <a href="two/185.html">
+      <li class="item">185.Bawipa thawn feh khat uh</li>
+    </a>
+    <a href="two/186.html">
+      <li class="item">186.Zum uh</li>
+    </a>
+    <a href="two/187.html">
+      <li class="item">187.A man khung thlaici tha</li>
+    </a>
+    <a href="two/188.html">
+      <li class="item">188.Tuan thok thlang uh si</li>
+    </a>
+    <a href="two/189.html">
+      <li class="item">189.Na Thluasuah sair aw</li>
+    </a>
+    <a href="two/190.html">
+      <li class="item">190.A phun dang &#7788;ongkam</li>
+    </a>
+    <a href="two/191.html">
+      <li class="item">191.Ra uh, Jesuh hnenah</li>
+    </a>
+    <a href="two/192.html">
+      <li class="item">192.Tuan thlang uh si</li>
+    </a>
+    <a href="two/193.html">
+      <li class="item">193.Mangbangza nunnak thu</li>
+    </a>
+    <a href="two/194.html">
+      <li class="item">194.Thuanthu sim ding ka nei</li>
+    </a>
+    <a href="two/195.html">
+      <li class="item">195.Christ Ralkap pawl</li>
+    </a>
+    <a href="two/196.html">
+      <li class="item">196.Rawl khawmtu kawhnak</li>
+    </a>
+    <a href="two/197.html">
+      <li class="item">197.A Lian sii-Bawi</li>
+    </a>
+    <a href="two/198.html">
+      <li class="item">198.Keimah in run zo</li>
+    </a>
+    <a href="two/199.html">
+      <li class="item">199.Bawi tumbik ka thang&#7789;hat</li>
+    </a>
+    <a href="two/200.html">
+      <li class="item">200.Aw thawmtumbik Alleluia</li>
+    </a>
+    <a href="two/201.html">
+      <li class="item">201.Alleluia Jesuh</li>
+    </a>
+    <a href="three/202.html">
+      <li class="item">202.Bawipa thang&#7789;hatnak hla kan sak ding</li>
+    </a>
+    <a href="three/203.html">
+      <li class="item">203.Pathian cu thang&#7789;hat uh</li>
+    </a>
+    <a href="three/204.html">
+      <li class="item">204.Kawhnak aw mawi</li>
+    </a>
+    <a href="three/205.html">
+      <li class="item">205.Lawmnak hla kan lung sung aum</li>
+    </a>
+    <a href="three/206.html">
+      <li class="item">206.Ka zumnak in ka thei</li>
+    </a>
+    <a href="three/207.html">
+      <li class="item">207.Duhdawtnak sim thei lo</li>
+    </a>
+    <a href="three/208.html">
+      <li class="item">208.Maw ka bawipa ka pathian</li>
+    </a>
+    <a href="three/209.html">
+      <li class="item">209.Vanbawi sunglawi zianghmuah tuahtu</li>
+    </a>
+    <a href="three/210.html">
+      <li class="item">210.Zaangfahnak phundang</li>
+    </a>
+    <a href="three/211.html">
+      <li class="item">211.Thinglamtah hram ah</li>
+    </a>
+    <a href="three/212.html">
+      <li class="item">212.Kei cu saangkaa ka si</li>
+    </a>
+    <a href="three/213.html">
+      <li class="item">213.Thianghlim pathian hmin lawm uh</li>
+    </a>
+    <a href="three/214.html">
+      <li class="item">214.A caan reilo in kan tlung ding</li>
+    </a>
+    <a href="three/215.html">
+      <li class="item">215.Mithiang umnak hmun</li>
+    </a>
+    <a href="three/216.html">
+      <li class="item">216.Nang thawn naih ka duh</li>
+    </a>
+    <a href="three/217.html">
+      <li class="item">217.Siangpahrang hmaiah ding in</li>
+    </a>
+    <a href="three/218.html">
+      <li class="item">218.Na Thei dah maw</li>
+    </a>
+    <a href="three/219.html">
+      <li class="item">219.A &#7788;angsung ah kan cawl</li>
+    </a>
+    <a href="three/220.html">
+      <li class="item">220.Bawipa na hnen ka pan ding</li>
+    </a>
+    <a href="three/221.html">
+      <li class="item">221.Runtu in i hruai ding</li>
+    </a>
+    <a href="three/222.html">
+      <li class="item">222.Vancung kan thlen tikah</li>
+    </a>
+    <a href="three/223.html">
+      <li class="item">223.Bawipa tuah cia eden thar</li>
+    </a>
+    <a href="three/224.html">
+      <li class="item">224.Runtu Bawibik rung tum aw</li>
+    </a>
+    <a href="three/225.html">
+      <li class="item">225.Zamrang in i ko aw</li>
+    </a>
+    <a href="three/226.html">
+      <li class="item">226.Ziangtikah so ka thleng ve ding</li>
+    </a>
+    <a href="three/227.html">
+      <li class="item">227.Khrih lawngin a kim ter thiam</li>
+    </a>
+    <a href="three/228.html">
+      <li class="item">228.Tuihhnu ah khi ram ah</li>
+    </a>
+    <a href="three/229.html">
+      <li class="item">229.Runral ram nuam</li>
+    </a>
+    <a href="three/230.html">
+      <li class="item">230.Pathian umnak mawibik khuanuam</li>
+    </a>
+    <a href="three/231.html">
+      <li class="item">231.Ka Thlarau hrang a &#7788;ha</li>
+    </a>
+    <a href="three/232.html">
+      <li class="item">232.Vancung ah inn aum</li>
+    </a>
+    <a href="three/233.html">
+      <li class="item">233.Vancungkhua kan thleng tikah</li>
+    </a>
+    <a href="three/234.html">
+      <li class="item">234.Vancung inn ah</li>
+    </a>
+    <a href="three/235.html">
+      <li class="item">235.Bawipa remmi ramnuam</li>
+    </a>
+    <a href="three/236.html">
+      <li class="item">236.Kan thih tikah</li>
+    </a>
+    <a href="three/237.html">
+      <li class="item">237.Sui Khuapi</li>
+    </a>
+    <a href="three/238.html">
+      <li class="item">238.Rualthabik Jesuh Asi</li>
+    </a>
+    <a href="three/239.html">
+      <li class="item">239.Kumkhua a tleumi</li>
+    </a>
+    <a href="three/240.html">
+      <li class="item">240.Van sangkaa in in zoh</li>
+    </a>
+    <a href="three/241.html">
+      <li class="item">241.Sangkaa rak ong uh</li>
+    </a>
+    <a href="three/242.html">
+      <li class="item">242.Hla thar an sak asi</li>
+    </a>
+    <a href="three/243.html">
+      <li class="item">243.Thinglamtah ralkap</li>
+    </a>
+    <a href="three/244.html">
+      <li class="item">244.Nangmah hrangah thla ka cam</li>
+    </a>
+    <a href="three/245.html">
+      <li class="item">245.Pathian uknak a nai</li>
+    </a>
+    <a href="three/246.html">
+      <li class="item">246.Paradizu</li>
+    </a>
+    <a href="three/247.html">
+      <li class="item">247.Hmin kawh tikah</li>
+    </a>
+    <a href="three/248.html">
+      <li class="item">248.Pathian kut sungah</li>
+    </a>
+    <a href="three/249.html">
+      <li class="item">249.Jesuh ka lung sungin ka duh</li>
+    </a>
+    <a href="three/250.html">
+      <li class="item">250.Angelus</li>
+    </a>
+    <a href="three/251.html">
+      <li class="item">251.Nitlak hnu vancung lamah</li>
+    </a>
+    <a href="three/252.html">
+      <li class="item">252.Vancungmi in Maria hnenah</li>
+    </a>
+    <a href="three/253.html">
+      <li class="item">253.May thla ni hleithum ah</li>
+    </a>
+    <a href="three/254.html">
+      <li class="item">254.Bawinu vancung ah an hruai</li>
+    </a>
+    <a href="three/255.html">
+      <li class="item">255.Nu Maria hnen thu kan kam pei</li>
+    </a>
+    <a href="three/256.html">
+      <li class="item">256.Nitin ten Maria hnenah</li>
+    </a>
+    <a href="three/257.html">
+      <li class="item">257.Ngai uh ngai uh</li>
+    </a>
+    <a href="three/258.html">
+      <li class="item">258.Riahsiatnak thuthuk phun nga</li>
+    </a>
+    <a href="three/259.html">
+      <li class="item">259.Lungawinak thuthuk pa nga</li>
+    </a>
+    <a href="three/260.html">
+      <li class="item">260.In hngilh hlah aw</li>
+    </a>
+    <a href="three/261.html">
+      <li class="item">261.Sualhrampi ihsin maria a thianghlim</li>
+    </a>
+    <a href="three/262.html">
+      <li class="item">262.Vancung ih bawinu maria</li>
+    </a>
+    <a href="three/263.html">
+      <li class="item">263.Vancungram lam in hruai aw</li>
+    </a>
+    <a href="three/264.html">
+      <li class="item">264.Thawm thawn kimtu nu maria</li>
+    </a>
+    <a href="three/265.html">
+      <li class="item">265.Thianghlim bawinu</li>
+    </a>
+    <a href="three/266.html">
+      <li class="item">266.Lungawi in ka thangthat</li>
+    </a>
+    <a href="three/267.html">
+      <li class="item">267.May thla bawinu</li>
+    </a>
+    <a href="three/268.html">
+      <li class="item">268.Zaangfahnak tohkham kiangah</li>
+    </a>
+    <a href="three/269.html">
+      <li class="item">269.Zinglam sun le zanlam</li>
+    </a>
+    <a href="three/270.html">
+      <li class="item">270.Thianghlimbik nu maria</li>
+    </a>
+    <a href="three/271.html">
+      <li class="item">271.Maria vancungram ah</li>
+    </a>
+    <a href="three/272.html">
+      <li class="item">272.Leitlun kan nunnak</li>
+    </a>
+    <a href="three/273.html">
+      <li class="item">273.Lawmnak hla sak uh</li>
+    </a>
+    <a href="three/274.html">
+      <li class="item">274.Upat tlak kan bawinu</li>
+    </a>
+    <a href="three/275.html">
+      <li class="item">275.Itthat ding feh hlanah</li>
+    </a>
+    <a href="three/276.html">
+      <li class="item">276.Na fa te ngai aw bawi Jesuh</li>
+    </a>
+    <a href="three/277.html">
+      <li class="item">277.Jesuh duhbik khua a thim zik</li>
+    </a>
+    <a href="three/278.html">
+      <li class="item">278.Bawipa keimah hnenah um aw</li>
+    </a>
+    <a href="three/279.html">
+      <li class="item">279.Zohman in then thei lo</li>
+    </a>
+    <a href="three/280.html">
+      <li class="item">280.Innsungsang duhawknak</li>
+    </a>
+    <a href="three/281.html">
+      <li class="item">281.Nupi thitnak Sacrament</li>
+    </a>
+    <a href="three/282.html">
+      <li class="item">282.Bawi Jesuh in thit awk nak a thangthat</li>
+    </a>
+    <a href="three/283.html">
+      <li class="item">283.Tikholhnak thutha</li>
+    </a>
+    <a href="three/284.html">
+      <li class="item">284.Hlan ah eden hmuan mawi</li>
+    </a>
+    <a href="three/286.html">
+      <li class="item">286.Bawipa Pathian kan thangthat</li>
+    </a>
+    <a href="three/287.html">
+      <li class="item">287.Zaangfah le ngaidam thei Bawipa</li>
+    </a>
+    <a href="three/288.html">
+      <li class="item">288.Inn Thluasuah peknak</li>
+    </a>
+    <a href="three/289.html">
+      <li class="item">289.Bawipa kan hnenah tum aw</li>
+    </a>
+    <a href="three/290.html">
+      <li class="item">290.Petru lungpi asi</li>
+    </a>
+    <a href="three/291.html">
+      <li class="item">291.Tipi tilet</li>
+    </a>
+    <a href="three/292.html">
+      <li class="item">292.Thianghlim Francis Xavier</li>
+    </a>
+    <a href="three/293.html">
+      <li class="item">293.Nangmah hnenah Pathian um seh</li>
+    </a>
+    <a href="three/294.html">
+      <li class="item">294.Miphun hmuahhmuah</li>
+    </a>
+    <a href="three/295.html">
+      <li class="item">295.Bawi Jesuh khrih pawlpi</li>
+    </a>
+    <a href="three/296.html">
+      <li class="item">296.Thenhra thenkhat</li>
+    </a>
+    <a href="three/297.html">
+      <li class="item">297.Kumkhua nunnak na duh le</li>
+    </a>
+    <a href="three/298.html">
+      <li class="item">298.Ka kut lawng in ka kai ding maw</li>
+    </a>
+    <a href="three/299.html">
+      <li class="item">299.Tu ah bawipa kan nung zo</li>
+    </a>
+    <a href="three/300.html">
+      <li class="item">300.Hlanlai zumnak a dai lo</li>
+    </a>
+    <a href="three/301.html">
+      <li class="item">301.Kan duhdawtbik mi bawi Jesuh</li>
+    </a>
+
+
+  </ul>
+  <script src="index.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</body>
+
+</html>

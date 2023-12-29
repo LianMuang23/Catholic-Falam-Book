@@ -1,0 +1,36 @@
+.header{
+    color: cornflowerblue;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 19px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    text-indent: 50px;
+}
+li{
+    font-size: 20px;
+    padding: 5px;
+}
+h2{
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+.special{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/* div{
+    font-size: 19px;
+    text-indent: 40px;
+    justify-content: center;
+} */

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget
+    android-versionCode='1'
+    id = 'com.falam.CatholicHla'
+    version='1.0.0'
+    xmlns = 'https://www.w3.org/ns/widgets'> 
+
+    <name>Catholic Falam Hla</name>
+    <description>Catholic Falam Hla Ca Uk leh Tlacamnak</description>
+    <author>Nicholas Lian Thawn Muang</author>
+    <preference name='orientation' value='portrait'/>
+    
+     <platform name='android'>
+        <icon src= "www/logo.png" />
+    </platform>
+
+</widget>
