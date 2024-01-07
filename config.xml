@@ -5,7 +5,7 @@
     version='1.0.0'
     xmlns = 'https://www.w3.org/ns/widgets'> 
 
-    <name>Catholic Falam Hla</name>
+    <name>Catholic Falam Hla Le Thlacamnak</name>
     <description>Catholic Falam Hla Ca Uk leh Tlacamnak</description>
     <author>Nicholas Lian Thawn Muang</author>
     <preference name='orientation' value='portrait'/>
